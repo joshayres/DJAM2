@@ -1,8 +1,12 @@
 images {
-  image: "/main/images/player.png"
+  image: "/main/images/player_anim.png"
 }
-images {
-  image: "/main/images/tile.png"
+animations {
+  id: "Idle"
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 60
+  flip_horizontal: 0
+  flip_vertical: 0
 }
 margin: 0
 extrude_borders: 2
