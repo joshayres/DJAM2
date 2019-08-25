@@ -1,0 +1,5 @@
+function update(self, dt)
+	local p = go.get_position()
+	p.x = p.x + 0.5
+	go.set_position(p)
+end
